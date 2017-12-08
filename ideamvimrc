@@ -1,0 +1,4 @@
+imap jj <ESC>
+nnoremap <space>i :action GotoImplementation<cr>
+nnoremap <space>b :action Back<cr>
+nmap <space><space> <PageDown>
