@@ -36,3 +36,8 @@
 * Set mark at current line: mm
 * Go to the marked location: `m
 ---
+
+# Hacks
+If j in IntelliJ IdeaVim doesn't scroll continously, run the following command in the terminal
+defaults write com.jetbrains.intellij ApplePressAndHoldEnabled -bool false
+Ref: https://stackoverflow.com/questions/28661127/ideavim-plugin-in-pycharm-doesnt-support-continuous-scroll-for-long-press?utm_medium=organic&utm_source=google_rich_qa&utm_campaign=google_rich_qa
