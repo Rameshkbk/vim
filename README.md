@@ -1,6 +1,6 @@
 # vim
 
--- Make the following entry in .ideavimrc
+Make the following entry in ~/.ideavimrc
 ```
 imap jj <ESC>
 nnoremap <space>i :action GotoImplementation<cr>
